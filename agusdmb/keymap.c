@@ -54,10 +54,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,          KC_NO,        KC_TRNS,       KC_TRNS,       KC_NO,          KC_NO
   ),
 	[L_NUMPAD] = LAYOUT_split_3x6_3(
-    KC_NO,          KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_NO,                KC_MINS,      KC_7,         KC_8,         KC_9,         KC_PSLS,      KC_BSPC,
-    TG(L_NUMPAD),   KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_NO,                KC_PLUS,      KC_4,         KC_5,         KC_6,         KC_PAST,      KC_NO,
-    KC_NO,          KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_NO,                KC_0,         KC_1,         KC_2,         KC_3,         KC_PEQL,      KC_NO,
-    KC_NO,          KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_0
+    KC_NO,          KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_NO,                KC_PSLS,      KC_P7,        KC_P8,        KC_P9,        KC_PMNS,      KC_BSPC,
+    TG(L_NUMPAD),   KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_NO,                KC_PAST,      KC_P4,        KC_P5,        KC_P6,        KC_PPLS,      KC_NO,
+    KC_NO,          KC_NO,        KC_NO,         KC_NO,         KC_NO,          KC_NO,                KC_P0,        KC_P1,        KC_P2,        KC_P3,        KC_PDOT,      KC_NO,
+    KC_NO,          KC_NO,        KC_NO,         KC_PEQL,       KC_NO,          KC_0
   ),
 };
 
