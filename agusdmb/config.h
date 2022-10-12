@@ -112,7 +112,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #    define ENABLE_RGB_MATRIX_MULTISPLASH
 // #    define ENABLE_RGB_MATRIX_SOLID_SPLASH
 #    define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+
+// #    define RGB_MATRIX_SOLID_REACTIVE_GRADIENT_MODE // change the solid color automatically
 #endif
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
-#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5 // to see the 5 layers on via
+
+
+#define HOLD_ON_OTHER_KEY_PRESS // when a key that has a tap and hold function,
+                                // the hold is selected as soon as another key
+                                // it tap withouth releasing the first one
